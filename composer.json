@@ -1,0 +1,20 @@
+{
+  "name": "kugaudo/tiny-php-deployer",
+  "description": "Tiny and customizable library for deploying PHP applications",
+  "authors": [
+    {
+      "name": "Igor Kugaudo",
+      "email": "igor@kugaudo.com"
+    }
+  ],
+  "require": {
+    "php": "^5.6 || ^7.0",
+    "phpseclib/phpseclib": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kugaudo\\PhpDeployer\\": ["src/"],
+      "Kugaudo\\PhpDeployer\\Samples\\": ["samples/"]
+    }
+  }
+}
